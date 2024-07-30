@@ -1,0 +1,42 @@
+@media  screen and (max-width: 430px) {
+
+    body {
+        padding: 0;
+        background-color: var(--white);
+    }
+
+    .image_card {
+        padding: 0;
+        background-color: var(--White);
+        max-width: 700px;
+        border-radius: 0;
+        margin-inline: auto;
+        margin-top: 0;
+      }
+
+    .recipe_card {
+    padding: 0 28px 28px 28px;
+    background-color: var(--White);
+    max-width: 700px;
+    border-radius: 0;
+    margin-inline: auto;
+    margin-bottom: 24px;
+      }   
+}
+
+.omelette {
+    border-radius: 0;
+    margin-bottom: 20px;
+  }
+
+  .heading-p {
+    color: var(--Wenge_Brown);
+    margin-bottom: 28px;
+  }
+
+  .nutrition_list {
+    display: flex;
+    align-items: center;
+    column-gap: 120px;
+    margin-bottom: 12px;
+  }

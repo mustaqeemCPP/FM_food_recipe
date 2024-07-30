@@ -1,0 +1,225 @@
+/* CSS Resets */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+/* Design Styles */
+
+:root {
+  /* Primary Colors */
+  --Nutmeg: hsl(14, 45%, 36%);
+  --Dark_Raspberry: hsl(332, 51%, 32%);
+
+  /* Neutral Colors */
+  --White: hsl(0, 0%, 100%);
+  --Rose_White: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light_Grey: hsl(30, 18%, 87%);
+  --Wenge_Brown: hsl(30, 10%, 34%);
+  --Dark_Charcoal: hsl(24, 5%, 18%);
+
+  /* Font size */
+  --body_text: 1.6rem;
+
+}
+
+/* Main Document */
+
+body {
+  background-color: var(--Eggshell);
+  padding: 20px;
+}
+
+/* Font Styles */
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .outfit-font-400 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .outfit-font-600 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .outfit-font-700 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  /* Card styling */
+
+  .image_card {
+    padding: 28px 28px 0 28px;
+    background-color: var(--White);
+    max-width: 700px;
+    border-radius: 16px 16px 0 0;
+    margin-inline: auto;
+    margin-top: 56px;
+  }
+
+  .recipe_card {
+    padding: 0 28px 28px 28px;
+    background-color: var(--White);
+    max-width: 700px;
+    border-radius: 0 0 16px 16px;
+    margin-inline: auto;
+    margin-bottom: 40px;
+  }
+
+  .omelette {
+    border-radius: 12px;
+    margin-bottom: 20px;
+    max-width: 700px;
+  }
+
+  .heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: var(--Dark_Charcoal);
+  }
+
+  .heading-p {
+    color: var(--Wenge_Brown);
+    margin-bottom: 20px;
+  }
+
+  .timing {
+    padding: 20px;
+    background-color: var(--Rose_White);
+    border-radius: 16px;
+
+    > ul {
+        padding-left: 20px;
+        
+        >li::marker {
+            color: var(--Dark_Raspberry);
+        }
+
+        >li {
+            padding-left: 12px;
+            font-size: 16px;
+            color: var(--Wenge_Brown);
+            font-family: "Outfit", sans-serif;
+            margin-bottom: 12px;
+            
+            >span {
+                color: var(--Wenge_Brown);
+                font-weight: 700;
+                font-family: "Outfit", sans-serif;
+            }
+        }
+    }
+  }
+
+  .heading_time {
+    color: var(--Dark_Raspberry);
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .heading3 {
+    font-size: 28px;
+    color: var(--Nutmeg);
+    margin-top: 24px;
+    margin-bottom: 20px;
+  }
+
+  .ingredients {
+    padding-left: 20px;
+    margin-bottom: 28px;
+
+    >li::marker {
+        color: var(--Nutmeg);
+    }
+
+    >li {
+        color: var(--Wenge_Brown);
+        font-family: "Outfit", sans-serif;
+        margin-bottom: 12px;
+    }
+  }
+
+  .divider {
+    color: var(--Light_Grey);
+    color: var(--Wenge_Brown);
+    opacity: .3;
+  }
+
+  .instructions {
+        padding-left: 20px;
+        margin-bottom: 28px;
+        
+        >li::marker {
+            color: var(--Nutmeg);
+            font-weight: 700;
+        }
+
+        >li {
+            padding-left: 12px;
+            font-size: 16px;
+            color: var(--Wenge_Brown);
+            font-family: "Outfit", sans-serif;
+            margin-bottom: 12px;
+            
+            >span {
+                color: var(--Wenge_Brown);
+                font-weight: 700;
+                font-family: "Outfit", sans-serif;
+            }
+        }
+    }
+  
+  .nutri_p {
+    color: var(--Wenge_Brown);
+    margin-bottom: 20px;
+  }
+
+  .nutrition_list {
+    display: flex;
+    align-items: center;
+    column-gap: 240px;
+    margin-bottom: 12px;
+  }
+
+  .nutrient {
+    color: var(--Wenge_Brown);
+    width: 80px;
+  }
+
+  .value {
+    color: var(--Nutmeg);
+  }
+
+  .nutri-hr {
+    margin-bottom: 16px;
+  }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
